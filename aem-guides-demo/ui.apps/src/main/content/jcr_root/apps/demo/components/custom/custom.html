@@ -1,0 +1,9 @@
+<div class="cmp-helloworld__item" data-sly-test="${properties.name}">
+        <p class="cmp-helloworld__item-label">Text property: ${properties.name}</p>
+        <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="property">${properties.para}</pre>
+        <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="property">${properties.text}</pre>
+        <p class="cmp-helloworld__item-label">Image property: ${properties.file}</p>
+         ${properties.fileReference}
+         <img src="${properties.fileReference}"/>
+        
+ </div>

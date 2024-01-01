@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Content-Package-Id: com.inexture.aem.guides:aem-guides-demo.ui.apps:1.0.
+ 0-SNAPSHOT
+Content-Package-Description: UI apps package for Demo Sites Project
+Content-Package-Roots: /apps/demo/i18n,/apps/demo/components,/apps/demo/
+ clientlibs
+Content-Package-Type: application
+

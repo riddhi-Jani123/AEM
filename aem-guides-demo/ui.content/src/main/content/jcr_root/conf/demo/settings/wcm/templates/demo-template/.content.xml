@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2023-10-12T18:05:35.588+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-10-12T10:10:13.000+05:30"
+        cq:lastReplicated_publish="{Date}2023-10-12T10:10:13.000+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/demo/settings/wcm/template-types/page"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Demo template"
+        status="enabled"/>
+</jcr:root>

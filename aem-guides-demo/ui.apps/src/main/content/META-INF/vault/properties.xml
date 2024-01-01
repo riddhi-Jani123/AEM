@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="description">UI apps package for Demo Sites Project</entry>
+<entry key="requiresRestart">false</entry>
+<entry key="generator">org.apache.jackrabbit.vault:3.6.9-T20230428120001-a23193e</entry>
+<entry key="packageType">application</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="lastWrappedBy">admin</entry>
+<entry key="packageFormatVersion">2</entry>
+<entry key="group">com.inexture.aem.guides</entry>
+<entry key="created">2023-12-13T15:23:40.455+05:30</entry>
+<entry key="lastModifiedBy">admin</entry>
+<entry key="buildCount">4</entry>
+<entry key="lastWrapped">2023-12-13T15:23:40.442+05:30</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="dependencies"></entry>
+<entry key="createdBy">admin</entry>
+<entry key="name">aem-guides-demo.ui.apps</entry>
+<entry key="lastModified">2023-12-13T15:23:40.442+05:30</entry>
+</properties>

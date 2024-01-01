@@ -1,0 +1,20 @@
+<div data-sly-use.model="com.inexture.aem.guides.demo.core.models.SliderModel">
+   <h1 class="main-title"> ${model.text} </h1>
+   <div class="row">
+   <div data-sly-list.item=${model.field} >
+      <div class="column">
+         <div class="card">
+            <img src="${item.fileReference}" class="img"   />
+            <div class="content">
+               <h2 >${item.name}</h2>
+               <p >${item.para}</p>
+               <a href="#"> Learn more </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="btn">
+   <button class="btn-txt" > show more </button>
+   </div>
+</div>

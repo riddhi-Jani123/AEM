@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Content-Package-Id: com.inexture.aem.guides:aem-guides-demo.ui.content:1
+ .0.0-SNAPSHOT
+Content-Package-Description: UI content package for Demo Sites Project
+Content-Package-Roots: /content/dam/demo/asset.jpg,/content/dam/demo,/co
+ nf/demo,/content/experience-fragments/demo,/content/demo
+Content-Package-Dependencies: com.inexture.aem.guides:aem-guides-demo.ui
+ .apps:1.0.0-SNAPSHOT
+Content-Package-Type: content
+

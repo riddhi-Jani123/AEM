@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2023-12-13T15:27:41.076+05:30"
+    jcr:createdBy="admin"
+    jcr:description="UI content package for Demo Sites Project"
+    jcr:lastModified="{Date}2023-12-13T15:27:41.076+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="merge"
+    buildCount="2"
+    dependencies="[com.inexture.aem.guides:aem-guides-demo.ui.apps:1.0.0-SNAPSHOT]"
+    group="com.inexture.aem.guides"
+    lastUnwrapped="{Date}2023-12-13T15:27:41.076+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2023-12-13T15:27:41.076+05:30"
+    lastWrappedBy="admin"
+    name="aem-guides-demo.ui.content"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="1.0.0-SNAPSHOT">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            propertyRules="[]"
+            root="/conf/demo"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            propertyRules="[]"
+            root="/content/demo"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            propertyRules="[]"
+            root="/content/dam/demo"
+            rules="[exclude:/content/dam/demo(/.*)?,include:/content/dam/demo/jcr:content(/.*)?]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            propertyRules="[]"
+            root="/content/dam/demo/asset.jpg"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            propertyRules="[]"
+            root="/content/experience-fragments/demo"
+            rules="[]"/>
+    </filter>
+</jcr:root>

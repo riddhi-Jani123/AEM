@@ -4,11 +4,15 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2024-01-02T11:24:17.780+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/demo/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
         sling:resourceType="demo/components/page"
-        pageTitle="Demo Sites Project">
+        pageTitle="Demo Sites Project"
+        text="fd"
+        title="fd">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="demo/components/container"

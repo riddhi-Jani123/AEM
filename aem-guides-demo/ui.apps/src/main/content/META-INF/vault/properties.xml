@@ -10,13 +10,13 @@
 <entry key="lastWrappedBy">admin</entry>
 <entry key="packageFormatVersion">2</entry>
 <entry key="group">com.inexture.aem.guides</entry>
-<entry key="created">2023-12-13T15:23:40.455+05:30</entry>
+<entry key="created">2024-01-02T14:49:11.412+05:30</entry>
 <entry key="lastModifiedBy">admin</entry>
-<entry key="buildCount">4</entry>
-<entry key="lastWrapped">2023-12-13T15:23:40.442+05:30</entry>
+<entry key="buildCount">8</entry>
+<entry key="lastWrapped">2024-01-02T14:49:11.398+05:30</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="dependencies"></entry>
 <entry key="createdBy">admin</entry>
 <entry key="name">aem-guides-demo.ui.apps</entry>
-<entry key="lastModified">2023-12-13T15:23:40.442+05:30</entry>
+<entry key="lastModified">2024-01-02T14:49:11.398+05:30</entry>
 </properties>

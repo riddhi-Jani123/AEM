@@ -11,13 +11,13 @@
 <entry key="packageFormatVersion">2</entry>
 <entry key="group">com.inexture.aem.guides</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2023-12-13T15:27:41.088+05:30</entry>
+<entry key="created">2024-01-02T14:49:20.804+05:30</entry>
 <entry key="lastModifiedBy">admin</entry>
-<entry key="buildCount">2</entry>
-<entry key="lastWrapped">2023-12-13T15:27:41.076+05:30</entry>
+<entry key="buildCount">5</entry>
+<entry key="lastWrapped">2024-01-02T14:49:20.785+05:30</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="dependencies">com.inexture.aem.guides:aem-guides-demo.ui.apps:1.0.0-SNAPSHOT</entry>
 <entry key="createdBy">admin</entry>
 <entry key="name">aem-guides-demo.ui.content</entry>
-<entry key="lastModified">2023-12-13T15:27:41.076+05:30</entry>
+<entry key="lastModified">2024-01-02T14:49:20.785+05:30</entry>
 </properties>

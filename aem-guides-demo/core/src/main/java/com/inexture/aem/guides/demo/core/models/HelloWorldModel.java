@@ -19,6 +19,7 @@ import static org.apache.sling.api.resource.ResourceResolver.PROPERTY_RESOURCE_T
 
 import javax.annotation.PostConstruct;
 
+import com.inexture.aem.guides.demo.core.services.OsgiService;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.models.annotations.Default;
@@ -36,6 +37,9 @@ import java.util.Optional;
 @Model(adaptables = Resource.class)
 public class HelloWorldModel {
 
+    @OSGiService
+    OsgiService osgiService;
+
     @ValueMapValue(name=PROPERTY_RESOURCE_TYPE, injectionStrategy=InjectionStrategy.OPTIONAL)
     @Default(values="No resourceType")
     protected String resourceType;
@@ -49,12 +53,8 @@ public class HelloWorldModel {
 
     @PostConstruct
     protected void init() {
-//        PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
-//        String currentPagePath = Optional.ofNullable(pageManager)
-//                .map(pm -> pm.getContainingPage(currentResource))
-//                .map(Page::getPath).orElse("");
 
-        message = "Hello Worlds!\n";
+        message = osgiService.getName();
     }
 
     public String getMessage() {

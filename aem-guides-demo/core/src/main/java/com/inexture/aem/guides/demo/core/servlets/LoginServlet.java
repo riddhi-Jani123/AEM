@@ -1,5 +1,6 @@
 package com.inexture.aem.guides.demo.core.servlets;
 
+import com.inexture.aem.guides.demo.core.services.OsgiService;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.Resource;
@@ -7,6 +8,7 @@ import org.apache.sling.api.servlets.HttpConstants;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.apache.sling.servlets.annotations.SlingServletResourceTypes;
 import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +25,8 @@ import java.io.IOException;
 )
 public class LoginServlet extends SlingAllMethodsServlet {
 
+    @Reference
+    OsgiService osgiService;
     public static final Logger LOGGER = LoggerFactory.getLogger(LoginServlet.class);
 
     @Override
@@ -33,7 +37,7 @@ public class LoginServlet extends SlingAllMethodsServlet {
 
         final Resource resource = req.getResource();
         resp.setContentType("text/plain");
-        resp.getWriter().write("login component");
+        resp.getWriter().write(osgiService.getName());
 
     }
 
